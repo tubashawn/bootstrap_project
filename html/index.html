@@ -11,9 +11,9 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
-    <script src="./assets/js/jquery-1.9.0.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/style.css">
+    <script src="../assets/js/jquery-1.9.0.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
 </head>
 <body>
     <header>
@@ -28,7 +28,7 @@
                         <span class="icon-bar"></span>
                     </button>
                 <a href="#top">
-                    <img src="assets/images/site-logo-white-70pct.png"> </a>
+                    <img src="../assets/images/site-logo-white-70pct.png"> </a>
                 </div>        
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -37,8 +37,6 @@
                         <li><a href="#">Sports</a></li>
                         <li><a href="#">Activities</a></li>
                         <li><a href="#">Contact Us</a></li>
-                            </ul>
-                        </li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -46,25 +44,44 @@
     </header> 
     
     <div class="container-fluid">
-
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../assets/images/lake.jpg)">
+            </div>
+        </div>
+        <div class="row content-filler">
+        </div>
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../assets/images/elk.jpg)">
+            </div>
+        </div>
+        <div class="row content-filler">
+        </div>
+        <div class="row">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../assets/images/snowboarder.jpg)">
+            </div>
+        </div>
+    </div>
+    
+    <div class="container-fluid">
+        
         <div class="row">
             
             <div>
                 
                 <aside class="sports-icon-list sports-list-top visible-md">
-                    <a href="downhill.html"><img src="./assets/images/icon-downhill.png" alt="Downhill">
+                    <a href="downhill.html"><img src="../assets/images/icon-downhill.png" alt="Downhill">
                         <h6>Downhill</h6>
                     </a>
-                    <a href="snowboarding.html"><img src="./assets/images/icon-snowboard.png" alt="Downhill">
+                    <a href="snowboarding.html"><img src="../assets/images/icon-snowboard.png" alt="Downhill">
                         <h6>Snowboarding</h6>
                     </a>
-                    <a href="bobsled.html"><img src="./assets/images/icon-bobsled.png" alt="Downhill">
+                    <a href="bobsled.html"><img src="../assets/images/icon-bobsled.png" alt="Downhill">
                         <h6>Bobsled</h6>
                     </a>
-                    <a href="cross-country.html"><img src="./assets/images/icon-cross-country.png" alt="Downhill">
+                    <a href="cross-country.html"><img src="../assets/images/icon-cross-country.png" alt="Downhill">
                         <h6>Cross-Country</h6>
                     </a>
-                    <a href="biathlon.html"><img src="./assets/images/icon-biathlon.png" alt="Downhill">
+                    <a href="biathlon.html"><img src="../assets/images/icon-biathlon.png" alt="Downhill">
                         <h6>Biathlon</h6>
                     </a>
                 </aside>
@@ -74,11 +91,12 @@
     </div>          
     <div class="container-fluid container-sm-height">
         <div class="row row-sm-height">
-
+            
+            
             <section class="col-sm-9 col-lg-8 push-sm-3 push-lg-2 col-sm-height">
                 <article>
                     <h2>Why I Went Into the Lake</h2>
-                    <img src="./assets/images/lake.jpg" alt="Lake">
+                    <img src="../assets/images/lake.jpg" alt="Lake">
                     <div class="row">
                         <p class="col-sm-10">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -89,10 +107,10 @@
                         </div>
                     </div>
                 </article>
-
+                
                 <article>
                     <h2>My name is NOT Bullwinkle</h2>
-                    <img src="./assets/images/elk.jpg" alt="Elk">
+                    <img src="../assets/images/elk.jpg" alt="Elk">
                     <div class="row">
                         <p class="col-sm-10">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -106,7 +124,7 @@
                 
                 <article>
                     <h2>There's gotta be a penguin up here somewhere</h2>
-                    <img src="./assets/images/snowboarder.jpg" alt="Elk">
+                    <img src="../assets/images/snowboarder.jpg" alt="Elk">
                     <div class="row">
                         <p class="col-sm-10">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -125,54 +143,62 @@
                 </h4>
                 <div class="range-list">
                     <a href="wasatch-range.html">
-                        <img src="./assets/images/range-1.png" alt="Wasatch Range">
+                        <img src="../assets/images/range-1.png" alt="Wasatch Range">
                         <h4>Wasatch Range</h4>
                     </a>
 
                     <a href="mummy-range.html">
-                        <img src="./assets/images/range-2.png" alt="Mummy Range">
+                        <img src="../assets/images/range-2.png" alt="Mummy Range">
                         <h4>Mummy Range</h4>
                     </a>
 
                     <a href="front-range.html">
-                        <img src="./assets/images/range-3.png" alt="Front Range">
+                        <img src="../assets/images/range-3.png" alt="Front Range">
                         <h4>Front Range</h4>
                     </a>
                     
                     <a href="sawtooth-range.html">
-                        <img src="./assets/images/range-4.png" alt="Sawtooth Range">
+                        <img src="../assets/images/range-4.png" alt="Sawtooth Range">
                         <h4>Sawtooth Range</h4>
                     </a>
                 </div>                
             </aside>
 
             <aside class="col-xs-12 col-md-2 sports-icon-list hidden-md col-sm-height">
-                <a href="downhill.html"><img src="./assets/images/icon-downhill.png" alt="Downhill">
+                <a href="downhill.html"><img src="../assets/images/icon-downhill.png" alt="Downhill">
                     <h6>Downhill</h6>
                 </a>
-                <a href="snowboarding.html"><img src="./assets/images/icon-snowboard.png" alt="Downhill">
+                <a href="snowboarding.html"><img src="../assets/images/icon-snowboard.png" alt="Downhill">
                     <h6>Snowboarding</h6>
                 </a>
-                <a href="bobsled.html"><img src="./assets/images/icon-bobsled.png" alt="Downhill">
+                <a href="bobsled.html"><img src="../assets/images/icon-bobsled.png" alt="Downhill">
                     <h6>Bobsled</h6>
                 </a>
-                <a href="cross-country.html"><img src="./assets/images/icon-cross-country.png" alt="Downhill">
+                <a href="cross-country.html"><img src="../assets/images/icon-cross-country.png" alt="Downhill">
                     <h6>Cross-Country</h6>
                 </a>
-                <a href="biathlon.html"><img src="./assets/images/icon-biathlon.png" alt="Downhill">
+                <a href="biathlon.html"><img src="../assets/images/icon-biathlon.png" alt="Downhill">
                     <h6>Biathlon</h6>
                 </a>
             </aside>
 
         </div>
         </div>
-    </div>
+    </div> -->
+
     <footer class="container-fluid">
         <h1>FOOTER</h1>
     </footer>
     
 </body>
-    <script src="assets/js/interactive.js"></script>
-    <script src="assets/js/animated-header/classie.js"></script>
-    <script src="assets/js/animated-header/cbpAnimatedHeader.js"></script>
+<script>
+    $(function() {
+        $(window).on("load resize", function() {
+            $(".fill-screen").css("height", window.innerHeight);
+        });
+    });
+</script>
+    <script src="../assets/js/interactive.js"></script>
+    <script src="../assets/js/animated-header/classie.js"></script>
+    <script src="../assets/js/animated-header/cbpAnimatedHeader.js"></script>
 </html>

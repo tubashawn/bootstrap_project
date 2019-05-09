@@ -1,6 +1,6 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    padding-top: 80px;
+    /* padding-top: 80px; */
 }
 
 .navbar {
@@ -8,7 +8,11 @@ body {
     padding: 30px 15px;
     -webkit-transition:  all 0.5s;
     transition: all 0.5s;
+}
 
+
+.fixed-attachment {
+    background-attachment: fixed;
 }
 
 @media (max-width: 400px) {
@@ -35,13 +39,25 @@ body {
     opacity: 90%;
 }
 
+.fill-screen {
+    background-size: cover;
+    background-position: center;
+}
 
+.content-filler {
+    height: 300px;
+}
 
 footer {
     background-color: #333;
     color: #ddd;
     padding: 20px;
     text-align: center;
+}
+
+content-filler {
+    height: 300px;
+    color: #450957
 }
 
 aside {
