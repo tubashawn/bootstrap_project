@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="../assets/css/style.css">
     <script src="../assets/js/jquery-1.9.0.min.js"></script>
     <script src="../assets/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/background.css">
 </head>
 <body>
     <header>
@@ -33,7 +34,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Sights</a></li>
+                        <li><a href="#">Sights</a></li>  
                         <li><a href="#">Sports</a></li>
                         <li><a href="#">Activities</a></li>
                         <li><a href="#">Contact Us</a></li>
@@ -45,7 +46,7 @@
     
     <div class="container-fluid">
         <div class="row">
-            <div class="fill-screen fixed-attachment" style="background-image: url(../assets/images/lake.jpg)">
+            <div class="fill-screen fixed-attachment" style="background-image: url(../assets/images/elk.jpg)">
             </div>
         </div>
         <div class="row content-filler">
@@ -191,14 +192,16 @@
     </footer>
     
 </body>
-<script>
-    $(function() {
-        $(window).on("load resize", function() {
-            $(".fill-screen").css("height", window.innerHeight);
-        });
-    });
-</script>
+    <script src="../assets/js/background.js"></script>
     <script src="../assets/js/interactive.js"></script>
     <script src="../assets/js/animated-header/classie.js"></script>
     <script src="../assets/js/animated-header/cbpAnimatedHeader.js"></script>
+    <script>
+        $(function() {
+            $(window).on("load resize", function() {
+                $(".fill-screen").css("height", window.innerHeight);
+            }) ;
+        });
+
+    </script>
 </html>
