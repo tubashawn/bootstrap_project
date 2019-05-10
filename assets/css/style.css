@@ -12,7 +12,9 @@ body {
     transition: all 0.5s;
 }
 
-
+.lake-image {
+    filter: brightness(85%);
+}
 
 @media (max-width: 400px) {
     .navbar-header {
@@ -53,8 +55,20 @@ body {
     }
 }
 
-.content-filler {
-    height: 300px;
+.title-row {
+    position: relative;
+    min-height: 300px;
+}
+
+.title-image {
+    position: absolute;
+    padding: 20px;
+    /* center an image in viewport */
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
 }
 
 .text-banner {
