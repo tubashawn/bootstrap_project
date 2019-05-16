@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 </head>
 <body>
-    <header>
+    <header id="top">
         <nav class="navbar navbar-inverse navbar-fixed-top cbp-af-header">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
@@ -35,10 +35,11 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Sights</a></li>  
-                        <li><a href="#">Sports</a></li>
-                        <li><a href="#">Activities</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#top">Home</a></li>  
+                        <li><a href="#sights">Sights</a></li>  
+                        <li><a href="#sports">Sports</a></li>
+                        <li><a href="#activities">Activities</a></li>
+                        <li><a href="#contact-us">Contact Us</a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -51,25 +52,26 @@
             <div class="fill-screen fixed-attachment lake-image" style="background-image: url(../assets/images/lake.jpg)">
                 <img class="img-responsive title-image" src="../assets/images/site-logo-white.png" alt="logo"/>
                 <div class="down-button">
-                    <a href="" class="btn"></a>
-                    <i class="fas fa-angle-down fa-4x"></i>
+                    <a class="btn" href="#sights">
+                        <i class="fas fa-angle-down fa-4x"></i>
+                    </a>
                 </div>
             </div>
         </section>
         
-        <section class="row text-banner">
+        <section class="row text-banner" id="sights">
             <h1>VISIT THE ROCKY MOUNTAINS</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis itaque culpa, optio accusamus quam vitae facilis enim dolor. Repellat molestiae, quaerat iste maxime sequi pariatur distinctio nostrum minima eius reiciendis.</p>
         </section>
         
 <!-- Will add in font awesome icon - down arrow in top section ^^^^^ -->
 
-        <section class="row">
+        <section class="row" >
             <div class="fill-screen fixed-attachment" style="background-image: url(../assets/images/elk.jpg)">
             </div>
         </section>
         
-        <section class="row activity-section">
+        <section class="row activity-section" id="activities">
             <div class="activity-element col-md-4">
                 <img src="../assets/images/icon-snowboard.png" />
                 <h2>Snowboarding</h2>
@@ -92,7 +94,7 @@
             </div>
         </section>
         
-        <section class="row contact-us">
+        <section class="row contact-us" id="contact-us">
             <h1>CONTACT US</h1>
             <h3>Somewhere in Utah</h3>
             <p>Lorem ispum dolor sit amet</p>

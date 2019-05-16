@@ -72,6 +72,7 @@ body {
 }
 
 .down-button {
+    /* center icon at bottom of element */
     position: absolute;
     bottom: 40px;
     width: 100%;
