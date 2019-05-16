@@ -5,6 +5,15 @@ $(function() {
 
     // Bootstrap scrollspy
     $("body").scollspy({
-        target: ".navbar"
-    })
+        target: ".navbar",
+        offset: 160
+    });
+
+    // smooth scrolling w/ scrollspy
+    $("nav a, .down-button a").bind("click", function() {
+        $("html, body").stop().animate({
+            scrollTop: $($(this).attr("href")).offset().top -100
+        }, 1500, "easeInOutExpo");
+        event.preventDefault();
+    });
 });
