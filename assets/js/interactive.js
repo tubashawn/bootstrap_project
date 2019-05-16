@@ -16,4 +16,7 @@ $(function() {
         }, 1500, "easeInOutExpo");
         event.preventDefault();
     });
+
+    // parallax scrolling w/ stellar.js
+    $(window).stellar();
 });
